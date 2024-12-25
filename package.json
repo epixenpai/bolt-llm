@@ -1,0 +1,17 @@
+{
+  "name": "bolt-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'No build step needed'",
+    "dev": "nodemon server.js",
+    "dockerbuild": "docker build . --target bolt-ai-development"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  bolt-ai:
+    build: 
+      context: .
+      target: bolt-ai-development
+    ports:
+      - "3000:3000"
+    profiles:
+      - development
